@@ -4,6 +4,8 @@ import java.util.Random;
 
 public class Lesson6 {
 
+    //home work 6.1 Bubble sort. Сделать метод сортировки массива целых чисел пузырьком.
+
     public static void main(String[] args) {
 
         int a = 65;
@@ -22,16 +24,9 @@ public class Lesson6 {
         for(int i = 0; i < 10; i++){
             int z = random.nextInt(b - a) + a;
             char chr = (char) z;
-            str = str + chr;
+            str += chr;
         }
         System.out.println(str);
 
     }
-
-
-
-
-
-
-
 }
